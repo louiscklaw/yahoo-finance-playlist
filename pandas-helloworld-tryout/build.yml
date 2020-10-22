@@ -21,7 +21,5 @@ pandas-helloworld-tryout:
         export LC_ALL=C.UTF-8
         export LANG=C.UTF-8
 
-        cd pandas-helloworld-tryout
-          pipenv sync
-          pipenv run python3 ./main.py
-        cd ..
+        pipenv --help
+        github-build-merger/test.sh
